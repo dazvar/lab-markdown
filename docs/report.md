@@ -38,6 +38,7 @@ $$
 ## 3. Simple Diagram (Mermaid)
 
 ```mermaid
+
 flowchart TD
     A[Start] --> B[Write Markdown]
     B --> C{Add Formulas?}
@@ -52,13 +53,13 @@ flowchart TD
 
 ## 4. Table of Favorite Books
 
-| № | Book Title | Author | Pages |
-|---|-------------|---------|--------|
-| 1 | 1984 | George Orwell | 328 |
-| 2 | The Great Gatsby | F. Scott Fitzgerald | 218 |
-| 3 | To Kill a Mockingbird | Harper Lee | 336 |
-| 4 | The Catcher in the Rye | J.D. Salinger | 277 |
-| 5 | Pride and Prejudice | Jane Austen | 432 |
+| № | Book Title             | Author              | Pages |
+| - | ---------------------- | ------------------- | ----- |
+| 1 | 1984                   | George Orwell       | 328   |
+| 2 | The Great Gatsby       | F. Scott Fitzgerald | 218   |
+| 3 | To Kill a Mockingbird  | Harper Lee          | 336   |
+| 4 | The Catcher in the Rye | J.D. Salinger       | 277   |
+| 5 | Pride and Prejudice    | Jane Austen         | 432   |
 
 ---
 
