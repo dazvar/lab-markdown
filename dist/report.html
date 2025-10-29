@@ -1,0 +1,95 @@
+<h1 id="лабораторна-робота-3">Лабораторна робота №3</h1>
+<p><strong>Тема:</strong> Markdown — створення документа, діаграми та
+публікація на GitHub</p>
+<p><strong>Короткий опис:</strong><br />
+У цій лабораторній роботі ми створимо структурований документ у
+Markdown, навчимося додавати формули, таблиці та діаграми.<br />
+Документ буде конвертований у формати HTML, DOCX та PDF, а також
+опублікований на GitHub.<br />
+Markdown дозволяє зручно оформлювати текст і легко його
+оновлювати.<br />
+Використання Mermaid допомагає візуалізувати процеси у вигляді
+діаграм.</p>
+<hr />
+<h2 id="my-favorite-books">1. My Favorite Books</h2>
+<ol type="1">
+<li>“1984” — George Orwell<br />
+</li>
+<li>“The Great Gatsby” — F. Scott Fitzgerald<br />
+</li>
+<li>“To Kill a Mockingbird” — Harper Lee<br />
+</li>
+<li>“The Catcher in the Rye” — J.D. Salinger<br />
+</li>
+<li>“Pride and Prejudice” — Jane Austen</li>
+</ol>
+<hr />
+<h2 id="known-formulas">2. Known Formulas</h2>
+<p>Інлайн приклад: <span
+class="math inline"><em>E</em> = <em>m</em><em>c</em><sup>2</sup></span></p>
+<p>Блочні формули: <span
+class="math display"><em>a</em><sup>2</sup> + <em>b</em><sup>2</sup> = <em>c</em><sup>2</sup></span></p>
+<p>Ще одна: <span
+class="math display">∫<sub>0</sub><sup><em>π</em></sup>sin (<em>x</em>) <em>d</em><em>x</em> = 2</span></p>
+<hr />
+<h2 id="simple-diagram-mermaid">3. Simple Diagram (Mermaid)</h2>
+<pre class="mermaid"><code>
+flowchart TD
+    A[Start] --&gt; B[Write Markdown]
+    B --&gt; C{Add Formulas?}
+    C --&gt;|Yes| D[Insert LaTeX]
+    C --&gt;|No| E[Continue]
+    D --&gt; F[Add Diagram]
+    E --&gt; F
+    F --&gt; G[Export via Pandoc]
+    G --&gt; H[Publish on GitHub]</code></pre>
+<h2 id="table-of-favorite-books">4. Table of Favorite Books</h2>
+<table>
+<thead>
+<tr>
+<th>№</th>
+<th>Book Title</th>
+<th>Author</th>
+<th>Pages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1984</td>
+<td>George Orwell</td>
+<td>328</td>
+</tr>
+<tr>
+<td>2</td>
+<td>The Great Gatsby</td>
+<td>F. Scott Fitzgerald</td>
+<td>218</td>
+</tr>
+<tr>
+<td>3</td>
+<td>To Kill a Mockingbird</td>
+<td>Harper Lee</td>
+<td>336</td>
+</tr>
+<tr>
+<td>4</td>
+<td>The Catcher in the Rye</td>
+<td>J.D. Salinger</td>
+<td>277</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Pride and Prejudice</td>
+<td>Jane Austen</td>
+<td>432</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="conclusions">5. Conclusions</h2>
+<p>During this lab work, I learned how to create documents in Markdown
+format, insert formulas, tables, and diagrams.<br />
+Markdown is a convenient way to write documentation that can be easily
+converted to different formats and published on GitHub.<br />
+Mermaid diagrams help visualize processes clearly and simply.</p>
