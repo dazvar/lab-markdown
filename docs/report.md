@@ -48,8 +48,7 @@ flowchart TD
     E --> F
     F --> G[Export via Pandoc]
     G --> H[Publish on GitHub]
-
----
+```
 
 ## 4. Table of Favorite Books
 
